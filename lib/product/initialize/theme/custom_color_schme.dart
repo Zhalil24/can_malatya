@@ -42,12 +42,12 @@ final class CustomColorScheme {
   /// Light dark scheme set
   static const darkColorScheme = ColorScheme(
     brightness: Brightness.dark,
-    primary: Color(0xFFD0BCFF), // Birincil
+    primary: Color.fromARGB(255, 0, 0, 0), // Birincil
     onPrimary: Color(0xFF381E72), // Birincil Üzerine
     primaryContainer: Color(0xFF4F378B), // Birincil Konteyner
     onPrimaryContainer: Color(0xFFEADDFF), // Birincil Üzerine Konteyner
-    secondary: Color(0xFFFFFFFF), // İkincil
-    onSecondary: Color(0xFF332D41), // İkincil Üzerine
+    secondary: Color.fromARGB(255, 0, 0, 0), // İkincil
+    onSecondary: Color.fromARGB(255, 0, 0, 0), // İkincil Üzerine
     secondaryContainer: Color(0xFF4A4458), // İkincil Konteyner
     onSecondaryContainer: Color(0xFFE8DEF8), // İkincil Üzerine Konteyner
     tertiary: Color(0xFFEFB8C8), // Üçüncül

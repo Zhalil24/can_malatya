@@ -1,4 +1,4 @@
-import '../../../product/models/photos_model.dart';
+import '../model/photos_model.dart';
 import 'package:flutter/material.dart';
 import 'package:vexana/vexana.dart';
 

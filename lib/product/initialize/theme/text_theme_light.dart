@@ -36,10 +36,10 @@ class TextThemeLight {
     color: CustomColorScheme.lightColorScheme.secondary,
   );
   final TextStyle authButtonText = TextStyle(
-    fontSize: 30,
+    fontSize: 25,
     fontFamily: GoogleFonts.sansita().fontFamily,
     fontWeight: FontWeight.bold,
-    color: CustomColorScheme.lightColorScheme.onSecondary,
+    color: CustomColorScheme.lightColorScheme.secondary,
   );
   final TextStyle appBarText = TextStyle(
     fontSize: 30,

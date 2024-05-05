@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:vexana/vexana.dart';
 
-import '../../../product/models/post_model.dart';
+import '../model/post_model.dart';
 
 abstract class IJobPostingService {
   final INetworkManager manager;

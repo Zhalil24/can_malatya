@@ -15,7 +15,7 @@ class StringConstants {
   static const String dontAccount = 'Hesabın Yok mu? Kayıt Ol';
   static const String titleEsnaf = 'Esnaflar';
   static const String titleJob = 'İs İlanları';
-  static const String titleNews = 'Malatyadan Haberler';
+  static const String titleNews = 'Haberler';
   static const String titleProfile = 'Profilim';
   static const String businessOwner = 'İşletme Sahibi';
   static const String businessDescription = 'İşletme Açıklaması';
@@ -24,6 +24,7 @@ class StringConstants {
   static const String homeCreateTitle = 'Esnaf İlanı ver';
   static const String jobCreateTitle = 'İş ilanı Ver';
   static const String jobDetailTitle = 'İş İlanı Detayları';
+  static const String weatherTitle = 'Malatya Hava Durumu';
 
   static const String jobPostingTitle = 'İş ilanı Vermek İçin tıklayınız';
 }

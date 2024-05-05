@@ -19,9 +19,20 @@ class BackgroundStack extends StatelessWidget {
         SizedBox(
           width: context.sized.width * 1,
           height: context.sized.height * 0.35,
-          child: Image.asset(
-            'assets/images/bck1.png',
-            fit: BoxFit.cover,
+          child: Stack(
+            children: [
+              Image.asset(
+                'assets/images/bck1.png',
+                fit: BoxFit.cover,
+              ),
+              SizedBox(
+                width: context.sized.width * 0.55,
+                child: Image.asset(
+                  'assets/icons/logo.png',
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ],
           ),
         ),
         Padding(
